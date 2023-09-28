@@ -1,18 +1,19 @@
 // import { useContext } from "react";
 import { Helmet } from "react-helmet-async";
-// import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
 // import { Link, useNavigate } from "react-router-dom";
 // import Swal from "sweetalert2";
 // import { AuthContext } from "../../providers/AuthProvider";
 // import SocialLogin from "../Shared/SocialLogin/SocialLogin";
 
 const SignUp = () => {
-//   const {
-//     register,
-//     handleSubmit,
-//     reset,
-//     formState: { errors },
-//   } = useForm();
+  const {
+    register,
+    // handleSubmit,
+    // reset,
+    formState: { errors },
+  } = useForm();
 //   const { createUser, updateUserProfile } = useContext(AuthContext);
 //   const navigate = useNavigate();
 
@@ -53,7 +54,7 @@ const SignUp = () => {
   return (
     <>
       <Helmet>
-        <title>Cake Hut | Sign Up</title>
+        <title>Jerins Parlour | Sign Up</title>
       </Helmet>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
