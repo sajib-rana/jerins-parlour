@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import beautiful from '../../../../assets/images/beautiful.png'
 
 const Banner = () => {
@@ -17,7 +18,7 @@ const Banner = () => {
               this physical space serves as the primary point of interaction
               between the business and its customers.
             </p>
-            <button className="btn bg-rose-600">Get an Appointment</button>
+            <Link to="/appointment" className="btn bg-rose-600">Get an Appointment</Link>
           </div>
         </div>
       </div>
